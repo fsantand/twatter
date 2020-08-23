@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twatter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar__brand">Twatter</h2>
+        <ul class="navbar__list">
+
+        </ul>
+        <form action="#">
+            <div class="form pdr--s">
+                <div class="form__group">
+                    <input required type="text" name="search" id="search" class="form__input form__input--s" style="margin-bottom: 0;" placeholder="Search in Twatter">
+                </div>
+            </div>
+        </form>
+    </nav>
+    <main>
+        <div class="grid-container">
+            <section class="section-twats">
+                <div class="twat-something mb--m">
+                    <div class="twat">
+                        <form action="#" method="POST" class="form pdr--s">
+                            <div class="twat__content" style="grid-template-columns: 10rem auto 6rem; column-gap: 2rem;">
+                                <a href="#" class="twat__link">
+                                    <img src="img/profile-1.jpg" alt="" class="twat__profile">
+                                    <span class="twat__username">@lindabinda</span>
+                                </a>
+                                <textarea required class="form__text-area ml--s" name="twat" id="twat" cols="30" rows="6" placeholder="Write your thoughts..."></textarea>
+                                <button type="submit" class="btn btn--primary btn--tall">Twat</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="feed">
+                    <h2 class="heading-secondary mb--s">Your Feed</h2>
+                    <div class="twat-feed">
+                        <div class="twat mb--s">
+                            <div class="twat__content">
+                                <a href="#" class="twat__link">
+                                    <img src="img/profile-4.jpg" alt="" class="twat__profile">
+                                    <span class="twat__username">@georgeclarkisbae</span>
+                                </a>
+                                <p class="twat__text">
+                                    My anus is bleeding. <a class="twat__hashtag" href="#">#GoForIt</a>
+                                </p>
+                            </div>
+                            <div class="twat__meta">
+                                <span>Posted a minute ago</span>
+                                <span class="twat__likes mr--s">&hearts; 123.456.789</span>
+                            </div>
+                        </div>
+                        <div class="twat mb--s">
+                            <div class="twat__content">
+                                <a href="#" class="twat__link">
+                                    <img src="img/profile-2.jpg" alt="" class="twat__profile">
+                                    <span class="twat__username">@canberrasucks</span>
+                                </a>
+                                <p class="twat__text">
+                                    Going to throw a hat party tomorrow, so excited !
+                                </p>
+                            </div>
+                            <div class="twat__meta">
+                                <span>Posted a minute ago</span>
+                                <span class="twat__likes mr--s">&hearts; 123.456.789</span>
+                            </div>
+                        </div>
+                        <div class="twat mb--s">
+                            <div class="twat__content">
+                                <a href="#" class="twat__link">
+                                    <img src="img/profile-3.jpg" alt="" class="twat__profile">
+                                    <span class="twat__username">@musicman</span>
+                                </a>
+                                <p class="twat__text">
+                                    Radiohead is for plebs, real patrician listen to yung lean on shrooms <a class="twat__hashtag" href="#">#2EdgyForMe</a>
+                                </p>
+                            </div>
+                            <div class="twat__meta">
+                                <span>Posted a minute ago</span>
+                                <span class="twat__likes mr--s">&hearts; 123.456.789</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <aside class="section-explore">
+                <div class="explore">
+                    <h3 class="heading-tertiary mb--m">Trending right now</h3>
+                    <ul class="hashtags mb--m">
+                        <li class="hashtag"><a href="#">#HelloWorld</a></li>
+                        <li class="hashtag"><a href="#">#DjangoCourse</a></li>
+                        <li class="hashtag"><a href="#">#HashtagTest</a></li>
+                        <li class="hashtag"><a href="#">#TwitterSucks</a></li>
+                        <li class="hashtag"><a href="#">#CBTDay</a></li>
+                    </ul>
+                    <button class="btn btn--primary btn--6">Explore Trends</button>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>

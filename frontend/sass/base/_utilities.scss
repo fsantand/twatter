@@ -1,0 +1,41 @@
+.mt {
+    &--s    {margin-top: 1rem;}
+    &--m    {margin-top: 2rem;}
+    &--l    {margin-top: 3rem;}
+    &--xl   {margin-top: 4rem;}
+}
+
+.mr {
+    &--s    {margin-right: 1rem;}
+    &--m    {margin-right: 2rem;}
+    &--l    {margin-right: 3rem;}
+    &--xl   {margin-right: 4rem;}
+}
+
+.mb {
+    &--s    {margin-bottom: 1rem;}
+    &--m    {margin-bottom: 2rem;}
+    &--l    {margin-bottom: 3rem;}
+    &--xl   {margin-bottom: 4rem;}
+}
+
+.ml {
+    &--s    {margin-left: 1rem;}
+    &--m    {margin-left: 2rem;}
+    &--l    {margin-left: 3rem;}
+    &--xl   {margin-left: 4rem;}
+}
+
+.pd {
+    &--s    {padding: 1rem;}
+    &--m    {padding: 2rem;}
+    &--l    {padding: 3rem;}
+    &--xl   {padding: 4rem;}
+
+    &r {
+        &--s    {padding-right: 1rem;}
+        &--m    {padding-right: 2rem;}
+        &--l    {padding-right: 3rem;}
+        &--xl   {padding-right: 4rem;}
+    }
+}

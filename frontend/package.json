@@ -1,0 +1,14 @@
+{
+  "name": "twatter-frontend",
+  "version": "0.1.0",
+  "description": "Frontend para aplicacion destinada al cursode Django en Español",
+  "main": "index.js",
+  "author": "fsantand",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "compile:sass":"node-sass sass/*.scss css/style.css -w"
+  }
+}

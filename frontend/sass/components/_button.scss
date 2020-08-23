@@ -1,0 +1,36 @@
+.btn {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    color: $color-white;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+
+    transition: all .4s;
+
+    &:hover {
+        @include box-shadow(.2rem,.5rem,1rem,.4);
+        transform: translateY(-5px);
+    }
+
+    &--primary {
+        background-color: $color-primary-light;
+    }
+
+    &--6 {
+        width: 60%;
+    }
+
+    &--s {
+        &:hover {
+            transform: translateY(-3px);
+            @include box-shadow(.1rem,.25rem,.5rem,.2);
+        }
+    }
+
+    &--tall {
+        height: 100%;
+    }
+}

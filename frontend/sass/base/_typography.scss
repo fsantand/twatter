@@ -1,0 +1,15 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.heading {
+    &-secondary {
+        color: $color-primary;
+        font-size: 2rem;
+    }
+    
+    &-tertiary {
+        color: $color-primary;
+        font-size: 36px;
+    }
+}

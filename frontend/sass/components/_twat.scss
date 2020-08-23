@@ -1,0 +1,57 @@
+.twat {
+    &__content {
+        display: grid;
+        grid-template-columns: 10rem auto;
+        column-gap: 1rem;
+        background-color: $color-gray-light-1;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    &__text {
+        padding: 1rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        background-color: $color-gray-dark-2;
+    }
+
+    &__profile {
+        width: 10rem;
+        height: 10rem;
+        clip-path: circle(50% at 50% 50%);
+    }
+
+    &__meta {
+        margin-top: 5px;
+        color: $color-gray-dark-1;
+    }
+
+    &__likes {
+        float: right;
+        color: $color-primary-light;
+    }
+
+    &__hashtag {
+        &,
+        &:link,
+        &:visited {
+            color: $color-primary-light;
+            text-decoration: none;
+        }
+    }
+
+    &__link {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    &__username {
+        &,
+        &:link,
+        &:visited {
+            color: $color-primary;
+            font-size: 1.2rem;
+        }
+    }
+}
